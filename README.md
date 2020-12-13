@@ -1,4 +1,9 @@
 # Assignment
+#Create a Java web application based on the standard servlet spec.
+The Web application should provide a REST API to create a list of ING ATMs in a given Dutch city and return a well formed JSON response.
+The web application should invoke an external service to gather a super set of the data: https://www.ing.nl/api/locator/atms/
+
+
 
 #Get All ATMs available in all city
 curl -X GET --header 'Accept: application/json' 'http://localhost:8181/atmLocations'
