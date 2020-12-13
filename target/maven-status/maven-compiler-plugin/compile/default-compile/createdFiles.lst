@@ -1,0 +1,10 @@
+com\mobiquity\atmlocator\controller\AtmController.class
+com\mobiquity\atmlocator\entity\Address.class
+com\mobiquity\atmlocator\config\SecurityConfig.class
+com\mobiquity\atmlocator\entity\AtmDetails.class
+com\mobiquity\atmlocator\config\MvcConfig.class
+com\mobiquity\atmlocator\dao\AtmDAOImpl.class
+com\mobiquity\atmlocator\AtmApplication.class
+com\mobiquity\atmlocator\entity\GeoLocation.class
+com\mobiquity\atmlocator\dao\AtmDAO.class
+com\mobiquity\atmlocator\service\AtmService.class

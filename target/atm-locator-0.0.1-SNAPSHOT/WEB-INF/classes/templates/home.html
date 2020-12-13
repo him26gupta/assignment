@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+<script
+	src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="atmData.js"></script>
+<title>ATM Locator</title>
+</head>
+<body>
+
+	<div class="row col-md-12 table-responsive">
+		<h2 align="center">ATM Locator</h2>
+
+		<form align="right" th:action="@{/logout}" method="post">
+			<input type="submit" value="Sign Out" />
+		</form>
+	</div>
+	<br>
+	<br>
+
+	<div class="container">
+		<div class="row col-md-12 table-responsive">
+			<table id="atmLocation" class="table">
+				<thead>
+					<tr>
+						<th >Street</th>
+						<th>House number</th>
+						<th>Postal code</th>
+						<th>City</th>
+						<th>Latitude</th>
+						<th>Longitude</th>
+						<th>Distance</th>
+						<th>Type</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</html>
