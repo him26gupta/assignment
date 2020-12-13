@@ -14,3 +14,4 @@ http://localhost:8081/
 User name: admin
 Password : password
 
+Deployable war is present inside target folder as : atm-locator-0.0.1-SNAPSHOT.war
