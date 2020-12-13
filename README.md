@@ -1,4 +1,4 @@
-# assignment
+# Assignment
 
 Java web application provide a REST API to create a list of ING ATMs in a given Dutch city and return a well formed JSON response The web application should invoke an external service to gather a super set of the data: https://www.ing.nl/api/locator/atms/
 
